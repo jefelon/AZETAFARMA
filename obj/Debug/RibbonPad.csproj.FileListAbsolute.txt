@@ -1,0 +1,71 @@
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\RibbonPad.csprojResolveAssemblyReference.cache
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\Ribbonpad.BalloonSearch.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\Ribbonpad.ColorPicker.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\Ribbonpad.frmAbout.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\Ribbonpad.frmDocument.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\Ribbonpad.frmMain.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\Ribbonpad.Properties.Resources.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\RibbonPad.csproj.GenerateResource.Cache
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\bin\Debug\RibbonPad.exe.config
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\bin\Debug\RibbonPad.exe
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\bin\Debug\RibbonPad.pdb
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\RibbonPad.exe
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\RibbonPad\CS\obj\Debug\RibbonPad.pdb
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\bin\Debug\RibbonPad.exe.config
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\RibbonPad.exe
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\RibbonPad.pdb
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\bin\Debug\RibbonPad.exe
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\bin\Debug\RibbonPad.pdb
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\RibbonPad.csprojResolveAssemblyReference.cache
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\Ribbonpad.BalloonSearch.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\Ribbonpad.ColorPicker.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\Ribbonpad.frmAbout.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\Ribbonpad.frmDocument.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\Ribbonpad.frmMain.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\Ribbonpad.Properties.Resources.resources
+E:\SISTEMAS DONAL\SISTEMA VENTAS PARA KEVIN\VENTAS\CS\obj\Debug\RibbonPad.csproj.GenerateResource.Cache
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.exe.config
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.exe
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.pdb
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.exe
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.pdb
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.csprojResolveAssemblyReference.cache
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.BalloonSearch.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.frmAbout.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Properties.Resources.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.csproj.GenerateResource.Cache
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.BalloonSearch.resources
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.frmAbout.resources
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.FrmCategoria.resources
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Usuario.FrmUsuario.resources
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Properties.Resources.resources
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.csproj.GenerateResource.Cache
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.exe.config
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.exe
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.pdb
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.exe
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.pdb
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categoria.FrmCategoria.resources
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.csprojResolveAssemblyReference.cache
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categoria.FrmAgregarCategoria.resources
+F:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categoria.FrmEditarCategoria.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.exe.config
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.exe
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\RibbonPad.pdb
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.csprojResolveAssemblyReference.cache
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.BalloonSearch.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.frmAbout.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.FrmCategoria.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Usuario.FrmUsuario.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Properties.Resources.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.csproj.GenerateResource.Cache
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.exe
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Debug\RibbonPad.pdb
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categorias.FrmAgregarCategoria.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categorias.FrmCategoria.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categorias.FrmEditarCategoria.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categorias.FrmAgregarCategoria.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categorias.FrmCategoria.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Categorias.FrmEditarCategoria.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.FrmCategoria.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Debug\Ribbonpad.Presentacion.Usuario.FrmUsuario.resources

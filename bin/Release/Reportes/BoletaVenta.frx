@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/05/2014 21:36:57" ReportInfo.Modified="02/29/2016 13:20:03" ReportInfo.CreatorVersion="2014.1.3.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection1" ConnectionString="rijcmlqD6hpRx8YOXsp9t2Ig0kXrpvCCHAUwbUzFmz4pyIjo4Avuu/+3rH3I5bMr+C20QhMe7hAjDRAyX8Ib+dq97heCkpo6C9g6C6JyZDf7fqJzRLGyvxNOHOIkB4YWUp/Xyvyia7MX3siqGDlY7Dp8m2tBRmZYuXsoUtcL9RdauswxX3PDi2Jcdu5egmJMSbboAjZ4rsMkQT88YJMMZwcFlC8lg==">
+      <TableDataSource Name="Table" Alias="boleta" DataType="System.Int32" Enabled="true" SelectCommand="SELECT        dbo.tblDetalleVenta.Cantidad, dbo.tblProducto.Codigo, dbo.tblDetalleVenta.PrecioUnitario, dbo.tblVenta.Fecha, dbo.tblVenta.NumeroDocumento, &#13;&#10;                         dbo.tblCliente.Nombre AS NombreCliente, dbo.tblCliente.Direccion, dbo.tblProducto.Nombre,&#13;&#10;                         dbo.tblDetalleVenta.PrecioUnitario * dbo.tblDetalleVenta.Cantidad AS Importe, dbo.tblTipoDocumento.Nombre AS TipoDocumento, dbo.tblCliente.Ruc, &#13;&#10;                         dbo.tblVenta.Id, dbo.tblCliente.Dni&#13;&#10;FROM            dbo.tblDetalleVenta INNER JOIN&#13;&#10;                         dbo.tblVenta ON dbo.tblDetalleVenta.VentaId = dbo.tblVenta.Id INNER JOIN&#13;&#10;                         dbo.tblCliente ON dbo.tblVenta.ClienteId = dbo.tblCliente.Id INNER JOIN&#13;&#10;                         dbo.tblProducto ON dbo.tblDetalleVenta.ProductoId = dbo.tblProducto.Id INNER JOIN&#13;&#10;                         dbo.tblTipoDocumento ON dbo.tblVenta.TipoDocumentoId = dbo.tblTipoDocumento.Id&#13;&#10;WHERE        (dbo.tblVenta.Id = @VentaId)">
+        <Column Name="Cantidad" DataType="System.Double"/>
+        <Column Name="Codigo" DataType="System.String"/>
+        <Column Name="PrecioUnitario" DataType="System.Double"/>
+        <Column Name="Fecha" DataType="System.DateTime"/>
+        <Column Name="NumeroDocumento" DataType="System.String"/>
+        <Column Name="Nombre" DataType="System.String"/>
+        <Column Name="Direccion" DataType="System.String"/>
+        <Column Name="NombreCliente" DataType="System.String"/>
+        <Column Name="Unidad" Enabled="false" DataType="System.String"/>
+        <Column Name="Importe" DataType="System.Double"/>
+        <Column Name="TipoDocumento" DataType="System.String"/>
+        <Column Name="Ruc" DataType="System.String"/>
+        <Column Name="Id" DataType="System.Int32"/>
+        <Column Name="Dni" DataType="System.String"/>
+        <CommandParameter Name="VentaId" DataType="8" Expression="[VentaId]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="TotalEnLetras" DataType="System.String"/>
+    <Parameter Name="Total" DataType="System.Double"/>
+    <Parameter Name="VentaId" DataType="System.Int32"/>
+    <Parameter Name="titulo" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" Guides="404.46,120.96">
+    <ReportTitleBand Name="ReportTitle1" Width="793.8" Height="349.65" Guides="198.45">
+      <ShapeObject Name="Shape1" Left="536.76" Top="47.25" Width="236.25" Height="94.5" Shape="RoundRectangle"/>
+      <TextObject Name="Text7" Left="644.49" Top="217.35" Width="119.07" Height="18.9" Border.Lines="Bottom" Text="[boleta.Fecha]" Format="Date" Format.Format="d"/>
+      <TextObject Name="Text8" Left="122.85" Top="255.15" Width="425.25" Height="18.9" Border.Lines="Bottom" Text="[boleta.NombreCliente]"/>
+      <TextObject Name="Text9" Left="122.85" Top="283.5" Width="427.14" Height="18.9" Border.Lines="Bottom" Text="[boleta.Direccion]"/>
+      <TextObject Name="Text4" Left="567" Top="66.15" Width="170.1" Height="18.9" Text="[boleta.TipoDocumento] de Venta" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text6" Left="614.25" Top="94.5" Width="94.5" Height="18.9" Text="[boleta.NumeroDocumento]" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text2" Left="623.7" Top="283.5" Width="141.75" Height="18.9" Border.Lines="Bottom" Text="[boleta.Dni]"/>
+      <TextObject Name="Text10" Left="35.91" Top="66.15" Width="463.05" Height="18.9" Text="[titulo]" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text11" Left="26.46" Top="255.15" Width="94.5" Height="18.9" Border.Lines="All" Text="SEÑOR(es):" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text23" Left="26.46" Top="283.5" Width="94.5" Height="18.9" Border.Lines="All" Text="DIRECCIÓN:" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text24" Left="585.9" Top="283.5" Width="37.8" Height="18.9" Border.Lines="All" Text="DNI:" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text25" Left="576.45" Top="217.35" Width="66.15" Height="18.9" Border.Lines="All" Text="FECHA:" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text26" Left="567" Top="94.5" Width="37.8" Height="18.9" Text="N°:" HorzAlign="Right" Font="Arial, 10pt, style=Bold"/>
+      <LineObject Name="Line1" Left="9.45" Top="198.45" Width="754.11" Diagonal="true"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="376.55" Width="793.8" Height="28.35" CanGrow="true" CanBreak="true" DataSource="Table">
+      <TextObject Name="Text12" Left="28.35" Width="64.26" Height="18.9" Border.Lines="All" Text="[boleta.Cantidad]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 10pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text13" Left="92.61" Width="85.05" Height="18.9" Border.Lines="All" Text="[boleta.Codigo]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text17" Left="177.66" Width="427.14" Height="18.9" Border.Lines="All" Text="[boleta.Nombre]" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="604.8" Width="75.6" Height="18.9" Border.Lines="All" Text="[boleta.PrecioUnitario]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 10pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text5" Left="680.4" Width="85.05" Height="18.9" Border.Lines="All" Text="[boleta.Importe]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Font="Arial, 10pt, style=Bold" Trimming="EllipsisCharacter"/>
+      <DataHeaderBand Name="DataHeader1" Top="353.65" Width="793.8" Height="18.9">
+        <TextObject Name="Text14" Left="28.35" Width="64.26" Height="18.9" Border.Lines="All" Text="Cantidad" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Text15" Left="92.61" Width="85.05" Height="18.9" Border.Lines="All" Text="Codigo" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Text18" Left="177.66" Width="427.14" Height="18.9" Border.Lines="All" Text="Nombre" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Text19" Left="604.8" Width="75.6" Height="18.9" Border.Lines="All" Text="PrecioUnitario" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Text21" Left="680.4" Width="85.05" Height="18.9" Border.Lines="All" Text="Importe" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      </DataHeaderBand>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="408.9" Width="793.8" Height="85.05">
+      <TextObject Name="Text20" Left="28.35" Top="56.7" Width="576.45" Height="18.9" Border.Lines="All" Text="[TotalEnLetras]"/>
+      <TextObject Name="Text22" Left="661.5" Top="56.7" Width="103.95" Height="18.9" Border.Lines="All" Text="***[Total]***" Format="Number" Format.UseLocale="true" HorzAlign="Center" VertAlign="Center"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

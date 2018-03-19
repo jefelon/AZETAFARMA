@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/27/2015 11:26:58" ReportInfo.Modified="09/27/2015 11:46:01" ReportInfo.CreatorVersion="2014.1.3.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqcW8vKJscyyffDee7ryWO0CmvCxRtieSDN8oAnyM7IXHbAJ/5T26q1TyCon5EYeCXV4biD1Vx05b/URDpZ3Uitdb7oPWS/SIRr1yfimORGCjjEwWkTNoeTQs8oWZLcf/BIZXiVHv10z8T8zUoOB7Q7VGEf8SwAXupAbFVYY16dRtq9ulrkPxYQAHqKc4RHThWWlX18Y9Nfk/QDB1kGpqFGw==">
+      <TableDataSource Name="Table" Alias="PorCat" DataType="System.Int32" Enabled="true" SelectCommand="SELECT        dbo.tblProducto.Codigo, dbo.tblProducto.Nombre, dbo.tblProducto.Descripcion, dbo.tblProducto.PrecioCompra, dbo.tblProducto.PrecioVenta, &#13;&#10;                         dbo.tblProducto.Stock, dbo.tblProducto.Unidad, dbo.tblCategoria.Nombre AS Categoria&#13;&#10;FROM            dbo.tblCategoria INNER JOIN&#13;&#10;                         dbo.tblProducto ON dbo.tblCategoria.Id = dbo.tblProducto.CategoriaId">
+        <Column Name="Codigo" DataType="System.String"/>
+        <Column Name="Nombre" DataType="System.String"/>
+        <Column Name="Descripcion" DataType="System.String"/>
+        <Column Name="PrecioCompra" DataType="System.Decimal"/>
+        <Column Name="PrecioVenta" DataType="System.Decimal"/>
+        <Column Name="Stock" DataType="System.Decimal"/>
+        <Column Name="Unidad" DataType="System.String"/>
+        <Column Name="Categoria" DataType="System.String"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="37.8">
+      <TextObject Name="Text3" Left="179.55" Top="9.45" Width="311.85" Height="18.9" Text="PRODUCTOS AGRUPADOS POR CATEGORIA" Font="Arial, 10pt, style=Bold"/>
+    </ReportTitleBand>
+    <GroupHeaderBand Name="GroupHeader1" Top="41.8" Width="718.2" Height="37.8" Condition="[PorCat.Categoria]">
+      <TextObject Name="Text1" Width="226.8" Height="18.9" Text="[[PorCat.Categoria]]" Font="Arial, 10pt, style=Bold"/>
+      <DataBand Name="Data1" Top="106.5" Width="718.2" Height="18.9" DataSource="Table">
+        <TextObject Name="Text2" Left="28.35" Width="85.05" Height="18.9" Border.Lines="All" Text="[PorCat.Codigo]"/>
+        <TextObject Name="Text5" Left="113.4" Width="94.5" Height="18.9" Border.Lines="All" Text="[PorCat.Unidad]"/>
+        <TextObject Name="Text7" Left="207.9" Width="226.8" Height="18.9" Border.Lines="All" Text="[PorCat.Nombre]"/>
+        <TextObject Name="Text9" Left="434.7" Width="94.5" Height="18.9" Border.Lines="All" Text="[PorCat.PrecioCompra]" Format="Number" Format.UseLocale="true" AutoShrink="FontSize" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+        <TextObject Name="Text11" Left="529.2" Width="94.5" Height="18.9" Border.Lines="All" Text="[PorCat.PrecioVenta]" Format="Number" Format.UseLocale="true" AutoShrink="FontSize" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+        <TextObject Name="Text13" Left="623.7" Width="94.5" Height="18.9" Border.Lines="All" Text="[PorCat.Stock]" Format="Number" Format.UseLocale="true" AutoShrink="FontSize" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+        <DataHeaderBand Name="DataHeader1" Top="83.6" Width="718.2" Height="18.9">
+          <TextObject Name="Text4" Left="28.35" Width="85.05" Height="18.9" Border.Lines="All" Fill.Color="Salmon" Text="Codigo" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text6" Left="113.4" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="Salmon" Text="Unidad" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text8" Left="207.9" Width="226.8" Height="18.9" Border.Lines="All" Fill.Color="Salmon" Text="Nombre" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text10" Left="434.7" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="Salmon" Text="PrecioCompra" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text12" Left="529.2" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="Salmon" Text="PrecioVenta" Font="Arial, 10pt, style=Bold"/>
+          <TextObject Name="Text14" Left="623.7" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="Salmon" Text="Stock" Font="Arial, 10pt, style=Bold"/>
+        </DataHeaderBand>
+      </DataBand>
+      <GroupFooterBand Name="GroupFooter1" Top="129.4" Width="718.2" Height="37.8"/>
+    </GroupHeaderBand>
+    <PageFooterBand Name="PageFooter1" Top="171.2" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

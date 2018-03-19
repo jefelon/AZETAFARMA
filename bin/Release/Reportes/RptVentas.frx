@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/05/2014 21:49:12" ReportInfo.Modified="08/14/2015 15:02:39" ReportInfo.CreatorVersion="2014.1.3.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqD6hpRx8YOXsp9t2Ig0kXrg6BR9Yxj6EJYrTHTLtTE8jyMnGiJbiS2tnm/1I+3HXGEW9/TG7bXkpc44Rl3kdIfNKguNvhETQ3o0Zrotg8bg3kbIDtSDCP+Yo6OP0z7jPr2B+/29OLb8REbxI/+yCv8MUQLSgxXHY854+Pv61/ZxLOmUCjpFr6HAM3OGDyaWJM">
+      <TableDataSource Name="Table" Alias="RankingVentas" DataType="System.Int32" Enabled="true" SelectCommand="&#13;&#10;SELECT        dbo.tblVenta.NumeroDocumento, dbo.tblVenta.Fecha, SUM(dbo.tblDetalleVenta.Cantidad * dbo.tblDetalleVenta.PrecioUnitario) AS Importe, &#13;&#10;                         dbo.tblTipoDocumento.Nombre AS TipoDocumento&#13;&#10;FROM            dbo.tblDetalleVenta INNER JOIN&#13;&#10;                         dbo.tblVenta ON dbo.tblDetalleVenta.VentaId = dbo.tblVenta.Id INNER JOIN&#13;&#10;                         dbo.tblTipoDocumento ON dbo.tblVenta.TipoDocumentoId = dbo.tblTipoDocumento.Id&#13;&#10;&#13;&#10;						&#13;&#10;WHERE CAST(CONVERT(CHAR(8), dbo.tblVenta.Fecha, 112) AS INT) BETWEEN CAST(CONVERT(CHAR(8),@Desde, 112) AS INT)&#13;&#10;AND CAST(CONVERT(CHAR(8), @Hasta, 112) AS INT)&#13;&#10;--and dbo.tblVenta.Importado=0 &#13;&#10;--and dbo.tblVenta.Activo=1&#13;&#10;&#13;&#10; group by dbo.tblVenta.NumeroDocumento,dbo.tblVenta.Fecha,dbo.tblTipoDocumento.Nombre">
+        <Column Name="Codigo" Enabled="false" DataType="System.String"/>
+        <Column Name="Cantidad" Enabled="false" DataType="System.Decimal"/>
+        <Column Name="PrecioUnitario" Enabled="false" DataType="System.Decimal"/>
+        <Column Name="Importe" DataType="System.Decimal"/>
+        <Column Name="NumeroDocumento" DataType="System.String"/>
+        <Column Name="Nombre" Enabled="false" DataType="System.String"/>
+        <Column Name="Fecha" DataType="System.DateTime"/>
+        <Column Name="TipoDocumento" DataType="System.String"/>
+        <CommandParameter Name="Desde" DataType="4" Expression="[Desde]"/>
+        <CommandParameter Name="Hasta" DataType="4" Expression="[Hasta]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="Desde" DataType="System.DateTime"/>
+    <Parameter Name="Hasta" DataType="System.DateTime"/>
+    <Parameter Name="titulo" DataType="System.String"/>
+    <Total Name="TotalSoles" Expression="[RankingVentas.Importe]" Evaluator="Data1"/>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="28.35">
+      <TextObject Name="Text13" Left="171.99" Width="546.21" Height="26.46" Text="[titulo]: DESDE [Desde] HASTA [Hasta]" AutoShrink="FontWidth" VertAlign="Bottom" Font="Arial, 11pt, style=Bold">
+        <Formats>
+          <GeneralFormat/>
+          <DateFormat Format="dd/MM/yyyy"/>
+          <DateFormat Format="dd/MM/yyyy"/>
+        </Formats>
+      </TextObject>
+      <TextObject Name="Text14" Top="1.89" Width="168.21" Height="18.9" Text="[Date]" Format="Date" Format.Format="dd/MM/yyyy" VertAlign="Bottom"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="31.21" Width="718.2" Height="18.9">
+      <TextObject Name="Text6" Left="219.24" Width="132.3" Height="18.9" Border.Lines="All" Fill.Color="Gold" Text="TipoDoc." Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text18" Left="96.39" Width="122.85" Height="18.9" Border.Lines="All" Fill.Color="Gold" Text="N° Doc." Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text12" Left="349.65" Width="122.85" Height="18.9" Border.Lines="All" Fill.Color="Gold" Text="Importe" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text10" Left="472.5" Width="113.4" Height="18.9" Border.Lines="All" Fill.Color="Gold" Text="Fecha" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text2" Width="96.39" Height="18.9" Border.Lines="All" Fill.Color="Gold" Text="N°:" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="52.96" Width="718.2" Height="24.57" Fill.Color="Linen" DataSource="Table">
+      <TextObject Name="Text5" Left="219.24" Width="132.3" Height="24.57" Border.Lines="All" Fill.Color="Linen" Text="[RankingVentas.TipoDocumento]" Format="Number" Format.UseLocale="true" AutoShrink="FontWidth" WordWrap="false" Font="Arial, 12pt" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text17" Left="96.39" Width="122.85" Height="24.57" Border.Lines="All" Text="[RankingVentas.NumeroDocumento]" AutoShrink="FontWidth" Font="Arial, 12pt"/>
+      <TextObject Name="Text9" Left="472.5" Width="113.4" Height="24.57" Border.Lines="All" Fill.Color="Linen" Text="[RankingVentas.Fecha]" Format="Date" Format.Format="dd/MM/yyyy" AutoShrink="FontWidth" HorzAlign="Center" Font="Arial, 12pt"/>
+      <TextObject Name="Text11" Left="349.65" Width="122.85" Height="24.57" Border.Lines="All" Fill.Color="Linen" Text="[RankingVentas.Importe]" Format="Number" Format.UseLocale="true" AutoShrink="FontWidth" HorzAlign="Right" WordWrap="false" Font="Arial, 12pt" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text21" Width="96.39" Height="24.57" Border.Lines="All" Text="[Row#]" HorzAlign="Center"/>
+    </DataBand>
+    <ColumnFooterBand Name="ColumnFooter1" Top="80.39" Width="718.2" Height="45.36">
+      <TextObject Name="Text16" Left="258.93" Width="90.72" Height="22.68" Border.Lines="All" Fill.Color="LightSteelBlue" Text="TOTAL:" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text15" Left="349.65" Width="122.85" Height="22.68" Border.Lines="All" Fill.Color="LightSteelBlue" Text="***[TotalSoles]***" Format="Number" Format.UseLocale="true" AutoShrink="FontSize" Font="Arial, 10pt, style=Bold"/>
+    </ColumnFooterBand>
+    <PageFooterBand Name="PageFooter1" Top="128.61" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C45C62A4-98E1-4768-9690-EFD2EB2C3272}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>shopping_cart.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>RibbonPad</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SistemaVentas</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Layout.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout.Design, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Layout.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.1.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=12.1.0.0, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.SuperGrid.Design, Version=12.1.0.0, Culture=neutral, PublicKeyToken=1fea3f5d8d482bff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.SuperGrid.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=12.1.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.TreeGX.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport, Version=2014.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\FastReports\FastReport.Net Demo\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Datos\FProductoComposicion.cs" />
+    <Compile Include="Datos\FProductoCategoria.cs" />
+    <Compile Include="Datos\FProductoLote.cs" />
+    <Compile Include="Datos\FSeccion.cs" />
+    <Compile Include="Datos\FPresentacion_.cs" />
+    <Compile Include="Datos\FLote.cs" />
+    <Compile Include="Datos\FComposicion.cs" />
+    <Compile Include="Datos\FLaboratorio.cs" />
+    <Compile Include="Datos\DBHelper.cs" />
+    <Compile Include="Datos\FCategoria.cs" />
+    <Compile Include="Datos\FCliente.cs" />
+    <Compile Include="Datos\FCompra.cs" />
+    <Compile Include="Datos\FDetalleCompra.cs" />
+    <Compile Include="Datos\FDetalleInventario.cs" />
+    <Compile Include="Datos\FDetalleVenta.cs" />
+    <Compile Include="Datos\FInventario.cs" />
+    <Compile Include="Datos\FProducto.cs" />
+    <Compile Include="Datos\FProveedor.cs" />
+    <Compile Include="Datos\FTipoDocumento.cs" />
+    <Compile Include="Datos\FUsuario.cs" />
+    <Compile Include="Datos\FVenta.cs" />
+    <Compile Include="EditarAppConfig.cs" />
+    <Compile Include="Entidad\Compra.cs" />
+    <Compile Include="Entidad\Composicion.cs" />
+    <Compile Include="Entidad\ProductoComposicion.cs" />
+    <Compile Include="Entidad\ProductoCategoria.cs" />
+    <Compile Include="Entidad\ProductoLote.cs" />
+    <Compile Include="Entidad\Seccion.cs" />
+    <Compile Include="Entidad\Presentacion_.cs" />
+    <Compile Include="Entidad\Lote.cs" />
+    <Compile Include="Entidad\Laboratorio.cs" />
+    <Compile Include="Entidad\DetalleCompra.cs" />
+    <Compile Include="Entidad\DetalleInventario.cs" />
+    <Compile Include="Entidad\Categoria.cs" />
+    <Compile Include="Entidad\Cliente.cs" />
+    <Compile Include="Entidad\DetalleVenta.cs" />
+    <Compile Include="Entidad\Inventario.cs" />
+    <Compile Include="Entidad\Producto.cs" />
+    <Compile Include="Entidad\Proveedor.cs" />
+    <Compile Include="Entidad\TipoDocumento.cs" />
+    <Compile Include="Entidad\Usuario.cs" />
+    <Compile Include="Entidad\Venta.cs" />
+    <Compile Include="NumerosALetras.cs" />
+    <Compile Include="Presentacion\Categorias\FrmAgregarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Categorias\FrmAgregarCategoria.Designer.cs">
+      <DependentUpon>FrmAgregarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Categorias\FrmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Categorias\FrmCategorias.Designer.cs">
+      <DependentUpon>FrmCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Categorias\FrmEditarCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Categorias\FrmEditarCategoria.Designer.cs">
+      <DependentUpon>FrmEditarCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Clientes\FrmAgregarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Clientes\FrmAgregarCliente.Designer.cs">
+      <DependentUpon>FrmAgregarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Clientes\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Clientes\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Clientes\FrmEditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Clientes\FrmEditarCliente.Designer.cs">
+      <DependentUpon>FrmEditarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Composiciones\FrmAgregarComposicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Composiciones\FrmAgregarComposicion.Designer.cs">
+      <DependentUpon>FrmAgregarComposicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Composiciones\FrmComposiciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Composiciones\FrmComposiciones.Designer.cs">
+      <DependentUpon>FrmComposiciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Composiciones\FrmEditarComposicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Composiciones\FrmEditarComposicion.Designer.cs">
+      <DependentUpon>FrmEditarComposicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmBuscarProductoC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmBuscarProductoC.Designer.cs">
+      <DependentUpon>FrmBuscarProductoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmCompras.Designer.cs">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmComprasAsistente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmComprasAsistente.Designer.cs">
+      <DependentUpon>FrmComprasAsistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmDetalleProductoC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmDetalleProductoC.Designer.cs">
+      <DependentUpon>FrmDetalleProductoC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmModificarItemC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmModificarItemC.Designer.cs">
+      <DependentUpon>FrmModificarItemC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmHomeRibbon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmHomeRibbon.Designer.cs">
+      <DependentUpon>FrmHomeRibbon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmAgregarInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmAgregarInventario.Designer.cs">
+      <DependentUpon>FrmAgregarInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmAsistenteTomaInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmAsistenteTomaInventario.Designer.cs">
+      <DependentUpon>FrmAsistenteTomaInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmEditarItemDetalleInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmEditarItemDetalleInventario.Designer.cs">
+      <DependentUpon>FrmEditarItemDetalleInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmEditarInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmEditarInventario.Designer.cs">
+      <DependentUpon>FrmEditarInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmInventarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventarios\FrmInventarios.Designer.cs">
+      <DependentUpon>FrmInventarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Laboratorios\FrmAgregarLaboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Laboratorios\FrmAgregarLaboratorio.Designer.cs">
+      <DependentUpon>FrmAgregarLaboratorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Laboratorios\FrmEditarLaboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Laboratorios\FrmEditarLaboratorio.Designer.cs">
+      <DependentUpon>FrmEditarLaboratorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Laboratorios\FrmLaboratorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Laboratorios\FrmLaboratorios.Designer.cs">
+      <DependentUpon>FrmLaboratorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Lotes\FrmAgregarLote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Lotes\FrmAgregarLote.Designer.cs">
+      <DependentUpon>FrmAgregarLote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Lotes\FrmEditarLote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Lotes\FrmEditarLote.Designer.cs">
+      <DependentUpon>FrmEditarLote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Lotes\FrmLotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Lotes\FrmLotes.Designer.cs">
+      <DependentUpon>FrmLotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Presentaciones\FrmAgregarPresentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Presentaciones\FrmAgregarPresentacion.Designer.cs">
+      <DependentUpon>FrmAgregarPresentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Presentaciones\FrmEditarPresentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Presentaciones\FrmEditarPresentacion.Designer.cs">
+      <DependentUpon>FrmEditarPresentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Presentaciones\FrmPresentaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Presentaciones\FrmPresentaciones.Designer.cs">
+      <DependentUpon>FrmPresentaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Productos\FrmAgregarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Productos\FrmAgregarProductos.Designer.cs">
+      <DependentUpon>FrmAgregarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Productos\FrmEditarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Productos\FrmEditarProductos.Designer.cs">
+      <DependentUpon>FrmEditarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Productos\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Productos\FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Proveedores\FrmAgregarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Proveedores\FrmAgregarProveedor.Designer.cs">
+      <DependentUpon>FrmAgregarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Proveedores\FrmEditarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Proveedores\FrmEditarProveedores.Designer.cs">
+      <DependentUpon>FrmEditarProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Proveedores\FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Proveedores\FrmProveedores.Designer.cs">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptCompras\FrmRptCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptCompras\FrmRptCompras.Designer.cs">
+      <DependentUpon>FrmRptCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptProductos\FrmRptProductosMasComprados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptProductos\FrmRptProductosMasComprados.Designer.cs">
+      <DependentUpon>FrmRptProductosMasComprados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptProductos\FrmRptProductosMasVendidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptProductos\FrmRptProductosMasVendidos.Designer.cs">
+      <DependentUpon>FrmRptProductosMasVendidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptVentas\FrmRptVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Reportes\RptVentas\FrmRptVentas.Designer.cs">
+      <DependentUpon>FrmRptVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Secciones\FrmAgregarSeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Secciones\FrmAgregarSeccion.Designer.cs">
+      <DependentUpon>FrmAgregarSeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Secciones\FrmEditarSeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Secciones\FrmEditarSeccion.Designer.cs">
+      <DependentUpon>FrmEditarSeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Secciones\FrmSecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Secciones\FrmSecciones.Designer.cs">
+      <DependentUpon>FrmSecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Usuarios\FrmAgregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Usuarios\FrmAgregarUsuario.Designer.cs">
+      <DependentUpon>FrmAgregarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Usuarios\FrmEditarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Usuarios\FrmEditarUsuario.Designer.cs">
+      <DependentUpon>FrmEditarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Usuarios\FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Usuarios\FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmBuscarProductoV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmBuscarProductoV.Designer.cs">
+      <DependentUpon>FrmBuscarProductoV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmDetalleProductosV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmDetalleProductosV.Designer.cs">
+      <DependentUpon>FrmDetalleProductosV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmModificarItemV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmModificarItemV.Designer.cs">
+      <DependentUpon>FrmModificarItemV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmVentasAsistente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmVentasAsistente.Designer.cs">
+      <DependentUpon>FrmVentasAsistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TexboxPersonal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Presentacion\Categorias\FrmAgregarCategoria.resx">
+      <DependentUpon>FrmAgregarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Categorias\FrmCategorias.resx">
+      <DependentUpon>FrmCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Categorias\FrmEditarCategoria.resx">
+      <DependentUpon>FrmEditarCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Clientes\FrmAgregarCliente.resx">
+      <DependentUpon>FrmAgregarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Clientes\FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Clientes\FrmEditarCliente.resx">
+      <DependentUpon>FrmEditarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.png" />
+    <EmbeddedResource Include="Presentacion\Composiciones\FrmAgregarComposicion.resx">
+      <DependentUpon>FrmAgregarComposicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Composiciones\FrmComposiciones.resx">
+      <DependentUpon>FrmComposiciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Composiciones\FrmEditarComposicion.resx">
+      <DependentUpon>FrmEditarComposicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\FrmBuscarProductoC.resx">
+      <DependentUpon>FrmBuscarProductoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\FrmCompras.resx">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\FrmComprasAsistente.resx">
+      <DependentUpon>FrmComprasAsistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\FrmDetalleProductoC.resx">
+      <DependentUpon>FrmDetalleProductoC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\FrmModificarItemC.resx">
+      <DependentUpon>FrmModificarItemC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmHomeRibbon.resx">
+      <DependentUpon>FrmHomeRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventarios\FrmAgregarInventario.resx">
+      <DependentUpon>FrmAgregarInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventarios\FrmAsistenteTomaInventario.resx">
+      <DependentUpon>FrmAsistenteTomaInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventarios\FrmEditarItemDetalleInventario.resx">
+      <DependentUpon>FrmEditarItemDetalleInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventarios\FrmEditarInventario.resx">
+      <DependentUpon>FrmEditarInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventarios\FrmInventarios.resx">
+      <DependentUpon>FrmInventarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Laboratorios\FrmAgregarLaboratorio.resx">
+      <DependentUpon>FrmAgregarLaboratorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Laboratorios\FrmEditarLaboratorio.resx">
+      <DependentUpon>FrmEditarLaboratorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Laboratorios\FrmLaboratorios.resx">
+      <DependentUpon>FrmLaboratorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Lotes\FrmAgregarLote.resx">
+      <DependentUpon>FrmAgregarLote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Lotes\FrmEditarLote.resx">
+      <DependentUpon>FrmEditarLote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Lotes\FrmLotes.resx">
+      <DependentUpon>FrmLotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Presentaciones\FrmAgregarPresentacion.resx">
+      <DependentUpon>FrmAgregarPresentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Presentaciones\FrmEditarPresentacion.resx">
+      <DependentUpon>FrmEditarPresentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Presentaciones\FrmPresentaciones.resx">
+      <DependentUpon>FrmPresentaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Productos\FrmAgregarProductos.resx">
+      <DependentUpon>FrmAgregarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Productos\FrmEditarProductos.resx">
+      <DependentUpon>FrmEditarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Productos\FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Proveedores\FrmAgregarProveedor.resx">
+      <DependentUpon>FrmAgregarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Proveedores\FrmEditarProveedores.resx">
+      <DependentUpon>FrmEditarProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Proveedores\FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Reportes\RptProductos\FrmRptProductosMasComprados.resx">
+      <DependentUpon>FrmRptProductosMasComprados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Reportes\RptProductos\FrmRptProductosMasVendidos.resx">
+      <DependentUpon>FrmRptProductosMasVendidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Reportes\RptVentas\FrmRptVentas.resx">
+      <DependentUpon>FrmRptVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Secciones\FrmAgregarSeccion.resx">
+      <DependentUpon>FrmAgregarSeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Secciones\FrmEditarSeccion.resx">
+      <DependentUpon>FrmEditarSeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Secciones\FrmSecciones.resx">
+      <DependentUpon>FrmSecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Usuarios\FrmAgregarUsuario.resx">
+      <DependentUpon>FrmAgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Usuarios\FrmEditarUsuario.resx">
+      <DependentUpon>FrmEditarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Usuarios\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ventas\FrmBuscarProductoV.resx">
+      <DependentUpon>FrmBuscarProductoV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ventas\FrmDetalleProductosV.resx">
+      <DependentUpon>FrmDetalleProductosV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ventas\FrmModificarItemV.resx">
+      <DependentUpon>FrmModificarItemV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ventas\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Ventas\FrmVentasAsistente.resx">
+      <DependentUpon>FrmVentasAsistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenExistingPlace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unpinned.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_folder.png" />
+    <Content Include="shopping_cart.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

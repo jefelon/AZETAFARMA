@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/05/2014 21:36:57" ReportInfo.Modified="02/29/2016 13:34:21" ReportInfo.CreatorVersion="2014.1.3.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection1" ConnectionString="rijcmlqD6hpRx8YOXsp9t2Ig0kXrpvCCHAUwbUzFmz4pyIjo4Avuu/+3rH3I5bMr+C20QhMe7hAjDRAyX8Ib+dq97heCkpo6C9g6C6JyZDf7fqJzRLGyvxNOHOIkB4YWUp/Xyvyia7MX3siqGDlY7Dp8m2tBRmZYuXsoUtcL9RdauswxX3PDi2Jcdu5egmJMSbboAjZD7Zquvxx1LogrpGlencRfg==">
+      <TableDataSource Name="Table" Alias="factura" DataType="System.Int32" Enabled="true" SelectCommand="SELECT        dbo.tblDetalleVenta.Cantidad, dbo.tblProducto.Codigo, dbo.tblDetalleVenta.PrecioUnitario, dbo.tblVenta.Fecha, dbo.tblVenta.NumeroDocumento, &#13;&#10;                         dbo.tblCliente.Nombre AS NombreCliente, dbo.tblCliente.Direccion, dbo.tblProducto.Nombre,&#13;&#10;                         dbo.tblDetalleVenta.PrecioUnitario * dbo.tblDetalleVenta.Cantidad AS Importe, dbo.tblTipoDocumento.Nombre AS TipoDocumento, dbo.tblCliente.Ruc, &#13;&#10;                         dbo.tblVenta.Id&#13;&#10;FROM            dbo.tblDetalleVenta INNER JOIN&#13;&#10;                         dbo.tblVenta ON dbo.tblDetalleVenta.VentaId = dbo.tblVenta.Id INNER JOIN&#13;&#10;                         dbo.tblCliente ON dbo.tblVenta.ClienteId = dbo.tblCliente.Id INNER JOIN&#13;&#10;                         dbo.tblProducto ON dbo.tblDetalleVenta.ProductoId = dbo.tblProducto.Id INNER JOIN&#13;&#10;                         dbo.tblTipoDocumento ON dbo.tblVenta.TipoDocumentoId = dbo.tblTipoDocumento.Id&#13;&#10;WHERE        (dbo.tblVenta.Id = @VentaId)">
+        <Column Name="Cantidad" DataType="System.Decimal"/>
+        <Column Name="Codigo" DataType="System.String"/>
+        <Column Name="PrecioUnitario" DataType="System.String"/>
+        <Column Name="Fecha" DataType="System.DateTime"/>
+        <Column Name="NumeroDocumento" DataType="System.String"/>
+        <Column Name="Nombre" DataType="System.String"/>
+        <Column Name="Direccion" DataType="System.String"/>
+        <Column Name="NombreCliente" DataType="System.String"/>
+        <Column Name="Unidad" Enabled="false" DataType="System.String"/>
+        <Column Name="Importe" DataType="System.Decimal"/>
+        <Column Name="TipoDocumento" DataType="System.String"/>
+        <Column Name="Ruc" DataType="System.String"/>
+        <Column Name="Id" DataType="System.Int32"/>
+        <CommandParameter Name="VentaId" DataType="8" Expression="[VentaId]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="TotalEnLetras" DataType="System.String"/>
+    <Parameter Name="Total" DataType="System.Double"/>
+    <Parameter Name="SubTotal" DataType="System.Double"/>
+    <Parameter Name="IGV" DataType="System.Double"/>
+    <Parameter Name="VentaId" DataType="System.Int32"/>
+    <Parameter Name="titulo" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page1" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" Guides="404.46,120.96">
+    <ReportTitleBand Name="ReportTitle1" Width="793.8" Height="340.2">
+      <TextObject Name="Text7" Left="122.85" Top="226.8" Width="283.5" Height="18.9" Text="[factura.Fecha]" Format="Date" Format.Format="d"/>
+      <TextObject Name="Text8" Left="122.85" Top="255.15" Width="425.25" Height="18.9" Text="[factura.NombreCliente]"/>
+      <TextObject Name="Text9" Left="122.85" Top="283.5" Width="472.5" Height="18.9" Text="[factura.Direccion]"/>
+      <TextObject Name="Text12" Left="642.6" Top="255.15" Width="94.5" Height="18.9" Text="[factura.Ruc]" HorzAlign="Right"/>
+      <TextObject Name="Text4" Left="642.6" Top="66.15" Width="94.5" Height="18.9" Text="[factura.TipoDocumento]" HorzAlign="Right"/>
+      <TextObject Name="Text6" Left="642.6" Top="94.5" Width="94.5" Height="18.9" Text="[factura.NumeroDocumento]" HorzAlign="Right"/>
+      <TextObject Name="Text10" Left="122.85" Top="66.15" Width="495.18" Height="18.9" Text="[titulo]"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="344.2" Width="793.8" Height="28.35" CanGrow="true" CanBreak="true" DataSource="Table">
+      <TextObject Name="Text15" Left="120.96" Width="75.6" Height="18.9" Text="[factura.Codigo]"/>
+      <TextObject Name="Text17" Left="198.45" Width="368.55" Height="18.9" Text="[factura.Nombre]"/>
+      <TextObject Name="Text3" Left="567" Width="75.6" Height="18.9" Text="[factura.PrecioUnitario]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text5" Left="642.6" Width="94.5" Height="18.9" Text="[factura.Importe]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text1" Left="26.46" Width="85.05" Height="18.9" Text="[factura.Cantidad]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="376.55" Width="793.8" Height="85.05">
+      <TextObject Name="Text20" Left="28.35" Top="56.7" Width="510.3" Height="18.9" Text="[TotalEnLetras]"/>
+      <TextObject Name="Text22" Left="661.5" Top="56.7" Width="103.95" Height="18.9" Text="***[Total]***" Format="Number" Format.UseLocale="true" HorzAlign="Center" VertAlign="Center"/>
+      <TextObject Name="Text19" Left="642.6" Width="94.5" Height="18.9" Text="[SubTotal]" Format="Number" Format.UseLocale="true" HorzAlign="Right"/>
+      <TextObject Name="Text21" Left="642.6" Top="28.35" Width="94.5" Height="18.9" Text="[IGV]" Format="Number" Format.UseLocale="true" HorzAlign="Right"/>
+      <TextObject Name="Text2" Left="602.91" Top="30.24" Width="37.8" Height="18.9" Text="18%" HorzAlign="Right"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

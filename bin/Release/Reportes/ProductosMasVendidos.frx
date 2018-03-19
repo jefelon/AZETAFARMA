@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" TextQuality="Regular" ReportInfo.Description="Demonstrates simple list report. To create it:&#13;&#10;&#13;&#10;- go to &quot;Data&quot; menu and select &quot;Choose Report Data...&quot; item to select datasource;&#13;&#10;&#13;&#10;- go to &quot;Report|Configure Bands...&quot; menu to create the band structure;&#13;&#10;&#13;&#10;- return to the report page, doubleclick the data band to show its editor;&#13;&#10;&#13;&#10;- choose the datasource;&#13;&#10;&#13;&#10;- drag data from the Data Dictionary window to the band." ReportInfo.Created="01/17/2008 03:05:57" ReportInfo.Modified="02/29/2016 21:02:25" ReportInfo.CreatorVersion="2014.1.3.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqcW8vKJscyyffDee7ryWO0I+1TfXhMYyZE0Dra7fVYJxxQGo49zStX8UQaFelAqbTksnXjGYRjK1bGWq04c/br0Pt7JSDzCMa8M6X3yq4MHYIRryLcO94a3jEOGzvtJZSt9xudyMdpk+DcAcaS/9KPt0Q+3NTVP/Y+WXd3oPH/hfJZ8ygEDpkDXK7ceAdR+u5DnUHs0YaV3YmV+ZkgQzNjg==">
+      <TableDataSource Name="Table" Alias="MasVendidos" DataType="System.Int32" Enabled="true" SelectCommand="SELECT        TOP (5) COUNT(dbo.tblDetalleVenta.ProductoId) AS VecesVendido, dbo.tblDetalleVenta.ProductoId, dbo.tblProducto.Codigo, dbo.tblProducto.Nombre, &#13;&#10;                         SUM(dbo.tblDetalleVenta.Cantidad * dbo.tblDetalleVenta.PrecioUnitario) AS TotalVendido&#13;&#10;FROM            dbo.tblDetalleVenta INNER JOIN&#13;&#10;                         dbo.tblProducto ON dbo.tblDetalleVenta.ProductoId = dbo.tblProducto.Id INNER JOIN&#13;&#10;                         dbo.tblVenta ON dbo.tblDetalleVenta.VentaId = dbo.tblVenta.Id&#13;&#10;WHERE        (dbo.tblVenta.Fecha &gt;=@Desde) AND (dbo.tblVenta.Fecha &lt;= @Hasta)&#13;&#10;&#13;&#10;GROUP BY dbo.tblDetalleVenta.ProductoId, dbo.tblProducto.Codigo, dbo.tblProducto.Nombre&#13;&#10;ORDER BY (VecesVendido) DESC">
+        <Column Name="ProductoId" DataType="System.Int32"/>
+        <Column Name="Codigo" DataType="System.String"/>
+        <Column Name="Nombre" DataType="System.String"/>
+        <Column Name="VecesVendido" DataType="System.Int32"/>
+        <Column Name="TotalVendido" DataType="System.Decimal"/>
+        <CommandParameter Name="Desde" DataType="4" Expression="[Desde]"/>
+        <CommandParameter Name="Hasta" DataType="4" Expression="[Hasta]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="Desde" DataType="System.DateTime"/>
+    <Parameter Name="Hasta" DataType="System.DateTime"/>
+    <Parameter Name="Titulo" DataType="System.String"/>
+  </Dictionary>
+  <ReportPage Name="Page2">
+    <ReportTitleBand Name="ReportTitle2" Width="718.2" Height="37.8">
+      <TextObject Name="Text9" Top="9.45" Width="718.2" Height="18.9" Text="[Titulo]" AutoShrink="FontSize" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="41.8" Width="718.2" Height="28.35">
+      <TextObject Name="Text2" Left="9.45" Width="94.5" Height="18.9" Fill.Color="Yellow" Text="VecesVendido" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text4" Left="103.95" Width="94.5" Height="18.9" Fill.Color="Yellow" Text="Codigo" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text6" Left="198.45" Width="292.95" Height="18.9" Fill.Color="Yellow" Text="Nombre" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text8" Left="491.4" Width="94.5" Height="18.9" Fill.Color="Yellow" Text="TotalComprado" Font="Arial, 10pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data2" Top="74.15" Width="718.2" Height="18.9" DataSource="Table">
+      <TextObject Name="Text1" Left="9.45" Width="94.5" Height="18.9" Border.Lines="Bottom" Text="[MasVendidos.VecesVendido]"/>
+      <TextObject Name="Text3" Left="103.95" Width="94.5" Height="18.9" Border.Lines="Bottom" Text="[MasVendidos.Codigo]"/>
+      <TextObject Name="Text5" Left="198.45" Width="292.95" Height="18.9" Border.Lines="Bottom" Text="[MasVendidos.Nombre]"/>
+      <TextObject Name="Text7" Left="491.4" Width="94.5" Height="18.9" Border.Lines="Bottom" Text="[MasVendidos.TotalVendido]" Format="Number" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter2" Top="97.05" Width="718.2" Height="18.9"/>
+  </ReportPage>
+</Report>

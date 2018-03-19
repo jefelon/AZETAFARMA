@@ -1,0 +1,534 @@
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Bars.dll
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Editor.dll
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.xml
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmPrincipal.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Roles.FrmAgregarRoles.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Roles.FrmEditarRoles.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Roles.FrmRoles.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+I:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.dll
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Bars.dll
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Editor.dll
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.xml
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmPrincipal.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+G:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.dll
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Bars.dll
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Editor.dll
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.xml
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmPrincipal.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Bars.dll
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Editor.dll
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.xml
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmPrincipal.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+K:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+J:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.dll
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Bars.dll
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Editor.dll
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.xml
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+M:\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.dll
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Bars.dll
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Editor.dll
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.xml
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+N:\USB\DATOS\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+C:\Users\PC-01\Desktop\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+C:\Users\PC-01\Desktop\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe.config
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Bars.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.Editor.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\bin\Release\FastReport.xml
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO SOFTWARE KEVIN\PROYECTO\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\bin\Release\RibbonPad.exe.config
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\bin\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\bin\Release\FastReport.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\bin\Release\FastReport.Bars.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\bin\Release\FastReport.Editor.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\bin\Release\FastReport.xml
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmAgregarLaboratorio.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmEditarLaboratorio.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\PROYECTO FARMAPLUS\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmLaboratorios.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmAgregarComposicion.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmComposiciones.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmEditarComposicion.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmAgregarLaboratorio.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmEditarLaboratorio.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmLaboratorios.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmAgregarLote.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmEditarLote.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmLotes.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmAgregarPresentacion.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmEditarPresentacion.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmPresentaciones.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmAgregarSeccion.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmEditarSeccion.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmSecciones.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+G:\AZFARMA\VENTAS\CS\bin\Release\RibbonPad.exe.config
+G:\AZFARMA\VENTAS\CS\bin\Release\RibbonPad.exe
+G:\AZFARMA\VENTAS\CS\bin\Release\FastReport.dll
+G:\AZFARMA\VENTAS\CS\bin\Release\FastReport.Bars.dll
+G:\AZFARMA\VENTAS\CS\bin\Release\FastReport.Editor.dll
+G:\AZFARMA\VENTAS\CS\bin\Release\FastReport.xml
+G:\AZFARMA\VENTAS\CS\obj\Release\RibbonPad.exe
+G:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+M:\AZFARMA\VENTAS\CS\bin\Release\RibbonPad.exe.config
+M:\AZFARMA\VENTAS\CS\bin\Release\RibbonPad.exe
+M:\AZFARMA\VENTAS\CS\bin\Release\FastReport.dll
+M:\AZFARMA\VENTAS\CS\bin\Release\FastReport.Bars.dll
+M:\AZFARMA\VENTAS\CS\bin\Release\FastReport.Editor.dll
+M:\AZFARMA\VENTAS\CS\bin\Release\FastReport.xml
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmAgregarComposicion.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmComposiciones.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmEditarComposicion.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmAgregarLaboratorio.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmEditarLaboratorio.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmLaboratorios.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmAgregarLote.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmEditarLote.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmLotes.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmAgregarPresentacion.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmEditarPresentacion.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmPresentaciones.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmAgregarSeccion.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmEditarSeccion.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmSecciones.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+M:\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+M:\AZFARMA\VENTAS\CS\obj\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\bin\Release\RibbonPad.exe.config
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\bin\Release\RibbonPad.exe
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\bin\Release\FastReport.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\bin\Release\FastReport.Bars.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\bin\Release\FastReport.Editor.dll
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\bin\Release\FastReport.xml
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.csprojResolveAssemblyReference.cache
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmAgregarCategoria.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmCategorias.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Categorias.FrmEditarCategoria.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmAgregarCliente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmClientes.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Clientes.FrmEditarCliente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmAgregarComposicion.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmComposiciones.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Composiciones.FrmEditarComposicion.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmBuscarProductoC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmCompras.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmComprasAsistente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmDetalleProductoC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Compras.FrmModificarItemC.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmHomeRibbon.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.FrmLogin.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAgregarInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmAsistenteTomaInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarItemDetalleInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmEditarInventario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Inventarios.FrmInventarios.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmAgregarLaboratorio.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmEditarLaboratorio.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Laboratorios.FrmLaboratorios.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmAgregarLote.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmEditarLote.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Lotes.FrmLotes.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmAgregarPresentacion.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmEditarPresentacion.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Presentaciones.FrmPresentaciones.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmAgregarProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmEditarProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Productos.FrmProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmAgregarProveedor.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmEditarProveedores.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Proveedores.FrmProveedores.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptCompras.FrmRptProductosMasComprados.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptProductos.FrmRptProductosMasVendidos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Reportes.RptVentas.FrmRptVentas.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmAgregarSeccion.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmEditarSeccion.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Secciones.FrmSecciones.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmAgregarUsuario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmEditarUsuario.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.Usuarios.FrmUsuarios.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmBuscarProducto.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmDetalleProductos.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmModificarItem.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentas.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Presentacion.VentasAsistente.FrmVentasAsistente.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.Properties.Resources.resources
+G:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\SistemaVentas.csproj.GenerateResource.Cache
+H:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\bin\Release\RibbonPad.exe.config
+H:\MI EMPRESA InfoPwP\MI EMPRESA InfoPwP\SISTEMAS DE VENTA\AZFARMA\VENTAS\CS\obj\Release\RibbonPad.exe

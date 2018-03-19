@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="09/27/2015 14:47:22" ReportInfo.Modified="09/27/2015 15:27:19" ReportInfo.CreatorVersion="2014.1.3.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqcW8vKJscyyffDee7ryWO0CmvCxRtieSDN8oAnyM7IXHbAJ/5T26q1TyCon5EYeCXV4biD1Vx05b/URDpZ3Uitdb7oPWS/SIRr1yfimORGCjjEwWkTNoeTQs8oWZLcf/BIZXiVHv10z8T8zUoOB7Q7VGEf8SwAXupAbFVYY16dRtq9ulrkPxYQAHqKc4RHThWYjqIGFbQe64IY8xM0MTsmw==">
+      <TableDataSource Name="Table" Alias="Inventario" DataType="System.Int32" Enabled="true" SelectCommand="SELECT        dbo.tblInventario.Id, dbo.tblInventario.Fecha,  dbo.tblInventario.Descripcion,dbo.tblProducto.Codigo, dbo.tblProducto.Nombre, dbo.tblDetalleInventario.CantidadContada, &#13;&#10;                         dbo.tblDetalleInventario.CantidadSistema, dbo.tblUsuario.Nombre AS Usuario, dbo.tblUsuario.ApellidoPaterno, dbo.tblUsuario.ApellidoMaterno, &#13;&#10;                         dbo.tblUsuario.Telefono&#13;&#10;FROM            dbo.tblDetalleInventario INNER JOIN&#13;&#10;                         dbo.tblInventario ON dbo.tblDetalleInventario.InventarioId = dbo.tblInventario.Id INNER JOIN&#13;&#10;                         dbo.tblUsuario ON dbo.tblInventario.UsuarioId = dbo.tblUsuario.Id INNER JOIN&#13;&#10;                         dbo.tblProducto ON dbo.tblDetalleInventario.ProductoId = dbo.tblProducto.Id&#13;&#10;where dbo.tblInventario.Id=@InventarioId">
+        <Column Name="Id" DataType="System.Int32"/>
+        <Column Name="Codigo" DataType="System.String"/>
+        <Column Name="Nombre" DataType="System.String"/>
+        <Column Name="CantidadContada" DataType="System.Decimal"/>
+        <Column Name="CantidadSistema" DataType="System.Decimal"/>
+        <Column Name="Usuario" DataType="System.String"/>
+        <Column Name="Telefono" DataType="System.Decimal"/>
+        <Column Name="Fecha" DataType="System.DateTime"/>
+        <Column Name="ApellidoPaterno" DataType="System.String"/>
+        <Column Name="ApellidoMaterno" DataType="System.String"/>
+        <Column Name="Descripcion" DataType="System.String"/>
+        <Column Name="Faltante" DataType="System.Int32" PropName="Column" Calculated="true" Expression="IIf([Inventario.CantidadContada]&lt;[Inventario.CantidadSistema],[Inventario.CantidadSistema]-[Inventario.CantidadContada],0)"/>
+        <Column Name="Column" Alias="Sobrante" DataType="System.Int32" Calculated="true" Expression="IIf([Inventario.CantidadContada]&gt;[Inventario.CantidadSistema],[Inventario.CantidadContada]-[Inventario.CantidadSistema],0)"/>
+        <CommandParameter Name="InventarioId" DataType="8" Expression="[InventarioId]"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+    <Parameter Name="InventarioId" DataType="System.Int32"/>
+    <Total Name="TotalFaltante" Expression="[Inventario.Faltante]" Evaluator="Data1"/>
+    <Total Name="TotalSobrante" Expression="[Inventario.Sobrante]" Evaluator="Data1"/>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <ReportTitleBand Name="ReportTitle1" Width="718.2" Height="85.05">
+      <TextObject Name="Text1" Left="217.35" Top="9.45" Width="340.2" Height="18.9" Text="[Inventario.Usuario] [Inventario.ApellidoPaterno] [Inventario.ApellidoMaterno]"/>
+      <TextObject Name="Text2" Top="9.45" Width="217.35" Height="18.9" Text="INVENTARIO REALIZADO POR:" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="576.45" Top="9.45" Width="141.75" Height="18.9" Text="[Inventario.Fecha]" Format="Date" Format.Format="d"/>
+      <TextObject Name="Text4" Top="37.8" Width="198.45" Height="18.9" Text="DESCRIPCIÓN INVENTARIO: " Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text5" Left="510.3" Top="9.45" Width="66.15" Height="18.9" Text="FECHA:" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text6" Left="198.45" Top="37.8" Width="302.4" Height="37.8" Text="[Inventario.Descripcion]"/>
+      <TextObject Name="Text23" Left="519.75" Top="37.8" Width="103.95" Height="18.9" Text="Id Inventario:" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text24" Left="623.7" Top="37.8" Width="94.5" Height="18.9" Text="[InventarioId]"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="89.05" Width="718.2" Height="18.9">
+      <TextObject Name="Text8" Left="56.7" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="DeepSkyBlue" Text="Id" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text10" Left="151.2" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="DeepSkyBlue" Text="Codigo" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text12" Left="245.7" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="DeepSkyBlue" Text="Nombre" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text14" Left="340.2" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="DeepSkyBlue" Text="Contado" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text16" Left="434.7" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="DeepSkyBlue" Text="Sistema" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text18" Left="529.2" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="DeepSkyBlue" Text="Faltante" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text20" Left="623.7" Width="94.5" Height="18.9" Border.Lines="All" Fill.Color="DeepSkyBlue" Text="Sobrante" Font="Arial, 10pt, style=Bold"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="111.95" Width="718.2" Height="18.9" DataSource="Table">
+      <TextObject Name="Text7" Left="56.7" Width="94.5" Height="18.9" Border.Lines="All" Text="[Inventario.Id]"/>
+      <TextObject Name="Text9" Left="151.2" Width="94.5" Height="18.9" Border.Lines="All" Text="[Inventario.Codigo]"/>
+      <TextObject Name="Text11" Left="245.7" Width="94.5" Height="18.9" Border.Lines="All" Text="[Inventario.Nombre]"/>
+      <TextObject Name="Text13" Left="340.2" Width="94.5" Height="18.9" Border.Lines="All" Text="[Inventario.CantidadContada]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text15" Left="434.7" Width="94.5" Height="18.9" Border.Lines="All" Text="[Inventario.CantidadSistema]" Format="Currency" Format.UseLocale="true" HorzAlign="Right" WordWrap="false" Trimming="EllipsisCharacter"/>
+      <TextObject Name="Text17" Left="529.2" Width="94.5" Height="18.9" Border.Lines="All" Text="[Inventario.Faltante]"/>
+      <TextObject Name="Text19" Left="623.7" Width="94.5" Height="18.9" Border.Lines="All" Text="[Inventario.Sobrante]"/>
+      <TextObject Name="Text25" Width="56.7" Height="18.9" Text="[Row#]" HorzAlign="Right" VertAlign="Center" Font="Arial, 9pt"/>
+      <DataFooterBand Name="DataFooter1" Top="134.85" Width="718.2" Height="18.9">
+        <TextObject Name="Text22" Left="623.7" Width="94.5" Height="18.9" Border.Lines="All" Text="[TotalSobrante]" Font="Arial, 10pt, style=Bold"/>
+        <TextObject Name="Text21" Left="529.2" Width="94.5" Height="18.9" Border.Lines="All" Text="[TotalFaltante]" Font="Arial, 10pt, style=Bold"/>
+      </DataFooterBand>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="157.75" Width="718.2" Height="18.9">
+      <TextObject Name="Text26" Width="94.5" Height="18.9" Text="[Page]"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>
