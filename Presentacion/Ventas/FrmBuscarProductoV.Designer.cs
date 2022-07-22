@@ -75,7 +75,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvProductosRelacionados.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvProductosRelacionados.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.dgvProductosRelacionados.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvProductosRelacionados.Location = new System.Drawing.Point(10, 3);
             this.dgvProductosRelacionados.Name = "dgvProductosRelacionados";
             this.dgvProductosRelacionados.ReadOnly = true;
@@ -127,7 +127,6 @@
             this.txtBuscarProducto.Name = "txtBuscarProducto";
             this.txtBuscarProducto.Size = new System.Drawing.Size(659, 31);
             this.txtBuscarProducto.TabIndex = 5;
-            this.txtBuscarProducto.Text = "Buscar producto...";
             this.txtBuscarProducto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBuscarProducto_KeyDown);
             // 
             // pictureBox1
@@ -245,7 +244,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvListaProductos.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvListaProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(170)))), ((int)(((byte)(170)))));
+            this.dgvListaProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvListaProductos.Location = new System.Drawing.Point(10, 8);
             this.dgvListaProductos.Name = "dgvListaProductos";
             this.dgvListaProductos.ReadOnly = true;

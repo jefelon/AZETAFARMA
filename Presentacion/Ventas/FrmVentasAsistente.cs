@@ -39,7 +39,16 @@ namespace SistemaVentas.Presentacion.VentasAsistente
            
             MostrarGuardarCancelar(false);
             productosImprimir(false);
+
+
+            dgvItems.CurrentCell = dgvItems[1, 0];
+
             
+
+            dgvItems.BeginEdit(true);
+
+            dgvItems.Rows[0].Cells[1].Selected = true;
+
             //una consulta a la base de datos siempre trataremos de omar el control, por si pasa algun error y se cierre la aplicación
             try
             {
@@ -397,7 +406,8 @@ namespace SistemaVentas.Presentacion.VentasAsistente
 
         private void dgvItems_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            editaritems();
+           // editaritems();
+
 
         }
 
@@ -427,5 +437,14 @@ namespace SistemaVentas.Presentacion.VentasAsistente
           
         }
 
+        private void dgvItems_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvItems_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

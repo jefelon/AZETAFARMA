@@ -32,7 +32,9 @@
             this.pbImagen = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblLaboratorio = new System.Windows.Forms.Label();
             this.lblPresentacion = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblProductoId = new System.Windows.Forms.Label();
@@ -50,8 +52,6 @@
             this.btnAnadir = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.lblVentaId = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lblLaboratorio = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagen)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -112,6 +112,16 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Producto";
             // 
+            // lblLaboratorio
+            // 
+            this.lblLaboratorio.AutoSize = true;
+            this.lblLaboratorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLaboratorio.Location = new System.Drawing.Point(368, 112);
+            this.lblLaboratorio.Name = "lblLaboratorio";
+            this.lblLaboratorio.Size = new System.Drawing.Size(90, 20);
+            this.lblLaboratorio.TabIndex = 23;
+            this.lblLaboratorio.Text = "Laboratorio";
+            // 
             // lblPresentacion
             // 
             this.lblPresentacion.AutoSize = true;
@@ -121,6 +131,16 @@
             this.lblPresentacion.Size = new System.Drawing.Size(106, 20);
             this.lblPresentacion.TabIndex = 23;
             this.lblPresentacion.Text = "Presentacion:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(256, 112);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(106, 20);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Laboratorio:";
             // 
             // label4
             // 
@@ -301,26 +321,7 @@
             this.lblVentaId.Size = new System.Drawing.Size(78, 16);
             this.lblVentaId.TabIndex = 22;
             this.lblVentaId.Text = "lblVentaId";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(256, 112);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(106, 20);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "Laboratorio:";
-            // 
-            // lblLaboratorio
-            // 
-            this.lblLaboratorio.AutoSize = true;
-            this.lblLaboratorio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLaboratorio.Location = new System.Drawing.Point(368, 112);
-            this.lblLaboratorio.Name = "lblLaboratorio";
-            this.lblLaboratorio.Size = new System.Drawing.Size(90, 20);
-            this.lblLaboratorio.TabIndex = 23;
-            this.lblLaboratorio.Text = "Laboratorio";
+            this.lblVentaId.Visible = false;
             // 
             // FrmDetalleProductos
             // 

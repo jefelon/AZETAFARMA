@@ -31,6 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHomeRibbon));
             this.FrmVender = new DevComponents.DotNetBar.RibbonControl();
+            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBarComprar = new DevComponents.DotNetBar.RibbonBar();
+            this.btnComprar = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnVender = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel3 = new DevComponents.DotNetBar.RibbonPanel();
             this.menuStripReportes = new System.Windows.Forms.MenuStrip();
             this.VentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,11 +47,15 @@
             this.listadoDeProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listadoDeProductosPorCategoríaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productosConStock0ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonBarComprar = new DevComponents.DotNetBar.RibbonBar();
-            this.btnComprar = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonBar1 = new DevComponents.DotNetBar.RibbonBar();
-            this.btnVender = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonPanel4 = new DevComponents.DotNetBar.RibbonPanel();
+            this.ribbonBar7 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnSeccion = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar6 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnPresentacion = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnLote = new DevComponents.DotNetBar.ButtonItem();
+            this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
+            this.btnLaboratorio = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();
             this.ribbonBarInventarios = new DevComponents.DotNetBar.RibbonBar();
             this.btnInventarios = new DevComponents.DotNetBar.ButtonItem();
@@ -64,15 +73,6 @@
             this.buttonItem14 = new DevComponents.DotNetBar.ButtonItem();
             this.ribbonBarCategorias = new DevComponents.DotNetBar.RibbonBar();
             this.btnCategoria = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonPanel4 = new DevComponents.DotNetBar.RibbonPanel();
-            this.ribbonBar7 = new DevComponents.DotNetBar.RibbonBar();
-            this.btnSeccion = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonBar6 = new DevComponents.DotNetBar.RibbonBar();
-            this.btnPresentacion = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonBar5 = new DevComponents.DotNetBar.RibbonBar();
-            this.btnLote = new DevComponents.DotNetBar.ButtonItem();
-            this.ribbonBar4 = new DevComponents.DotNetBar.RibbonBar();
-            this.btnLaboratorio = new DevComponents.DotNetBar.ButtonItem();
             this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();
             this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();
             this.itemContainer2 = new DevComponents.DotNetBar.ItemContainer();
@@ -104,11 +104,11 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.FrmVender.SuspendLayout();
+            this.ribbonPanel2.SuspendLayout();
             this.ribbonPanel3.SuspendLayout();
             this.menuStripReportes.SuspendLayout();
-            this.ribbonPanel2.SuspendLayout();
-            this.ribbonPanel1.SuspendLayout();
             this.ribbonPanel4.SuspendLayout();
+            this.ribbonPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,9 +120,9 @@
             this.FrmVender.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.FrmVender.CaptionVisible = true;
             this.FrmVender.Controls.Add(this.ribbonPanel2);
+            this.FrmVender.Controls.Add(this.ribbonPanel1);
             this.FrmVender.Controls.Add(this.ribbonPanel3);
             this.FrmVender.Controls.Add(this.ribbonPanel4);
-            this.FrmVender.Controls.Add(this.ribbonPanel1);
             this.FrmVender.Dock = System.Windows.Forms.DockStyle.Top;
             this.FrmVender.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.applicationButton1,
@@ -158,111 +158,6 @@
             this.FrmVender.TabIndex = 0;
             this.FrmVender.Text = "home";
             this.FrmVender.Click += new System.EventHandler(this.FrmVender_Click);
-            // 
-            // ribbonPanel3
-            // 
-            this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel3.Controls.Add(this.menuStripReportes);
-            this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel3.Location = new System.Drawing.Point(0, 53);
-            this.ribbonPanel3.Name = "ribbonPanel3";
-            this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel3.Size = new System.Drawing.Size(1000, 98);
-            // 
-            // 
-            // 
-            this.ribbonPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel3.TabIndex = 3;
-            this.ribbonPanel3.Visible = false;
-            // 
-            // menuStripReportes
-            // 
-            this.menuStripReportes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.VentasToolStripMenuItem,
-            this.cOMPRASToolStripMenuItem,
-            this.pRODUCTOSToolStripMenuItem});
-            this.menuStripReportes.Location = new System.Drawing.Point(3, 0);
-            this.menuStripReportes.Name = "menuStripReportes";
-            this.menuStripReportes.Size = new System.Drawing.Size(994, 24);
-            this.menuStripReportes.TabIndex = 1;
-            this.menuStripReportes.Text = "menuStrip1";
-            // 
-            // VentasToolStripMenuItem
-            // 
-            this.VentasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.porFechasToolStripMenuItem});
-            this.VentasToolStripMenuItem.Name = "VentasToolStripMenuItem";
-            this.VentasToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
-            this.VentasToolStripMenuItem.Text = "VENTAS";
-            // 
-            // porFechasToolStripMenuItem
-            // 
-            this.porFechasToolStripMenuItem.Name = "porFechasToolStripMenuItem";
-            this.porFechasToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.porFechasToolStripMenuItem.Text = "Por Fechas";
-            this.porFechasToolStripMenuItem.Click += new System.EventHandler(this.porFechasToolStripMenuItem_Click);
-            // 
-            // cOMPRASToolStripMenuItem
-            // 
-            this.cOMPRASToolStripMenuItem.Name = "cOMPRASToolStripMenuItem";
-            this.cOMPRASToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.cOMPRASToolStripMenuItem.Text = "COMPRAS";
-            // 
-            // pRODUCTOSToolStripMenuItem
-            // 
-            this.pRODUCTOSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productosMásCompradosToolStripMenuItem,
-            this.toolStripMenuItem1,
-            this.listadoDeProductosToolStripMenuItem,
-            this.listadoDeProductosPorCategoríaToolStripMenuItem,
-            this.productosConStock0ToolStripMenuItem});
-            this.pRODUCTOSToolStripMenuItem.Name = "pRODUCTOSToolStripMenuItem";
-            this.pRODUCTOSToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
-            this.pRODUCTOSToolStripMenuItem.Text = "PRODUCTOS";
-            // 
-            // productosMásCompradosToolStripMenuItem
-            // 
-            this.productosMásCompradosToolStripMenuItem.Name = "productosMásCompradosToolStripMenuItem";
-            this.productosMásCompradosToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.productosMásCompradosToolStripMenuItem.Text = "10 Productos más comprados";
-            this.productosMásCompradosToolStripMenuItem.Click += new System.EventHandler(this.productosMásCompradosToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(258, 22);
-            this.toolStripMenuItem1.Text = "5 Productos más vendidos";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // listadoDeProductosToolStripMenuItem
-            // 
-            this.listadoDeProductosToolStripMenuItem.Name = "listadoDeProductosToolStripMenuItem";
-            this.listadoDeProductosToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.listadoDeProductosToolStripMenuItem.Text = "Listado de productos";
-            this.listadoDeProductosToolStripMenuItem.Click += new System.EventHandler(this.listadoDeProductosToolStripMenuItem_Click);
-            // 
-            // listadoDeProductosPorCategoríaToolStripMenuItem
-            // 
-            this.listadoDeProductosPorCategoríaToolStripMenuItem.Name = "listadoDeProductosPorCategoríaToolStripMenuItem";
-            this.listadoDeProductosPorCategoríaToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.listadoDeProductosPorCategoríaToolStripMenuItem.Text = "Listado de productos por categoría";
-            this.listadoDeProductosPorCategoríaToolStripMenuItem.Visible = false;
-            this.listadoDeProductosPorCategoríaToolStripMenuItem.Click += new System.EventHandler(this.listadoDeProductosPorCategoríaToolStripMenuItem_Click);
-            // 
-            // productosConStock0ToolStripMenuItem
-            // 
-            this.productosConStock0ToolStripMenuItem.Name = "productosConStock0ToolStripMenuItem";
-            this.productosConStock0ToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.productosConStock0ToolStripMenuItem.Text = "Productos con Stock 0";
-            this.productosConStock0ToolStripMenuItem.Click += new System.EventHandler(this.productosConStock0ToolStripMenuItem_Click);
             // 
             // ribbonPanel2
             // 
@@ -365,6 +260,295 @@
             this.btnVender.Name = "btnVender";
             this.btnVender.SubItemsExpandWidth = 14;
             this.btnVender.Click += new System.EventHandler(this.btnVender_Click);
+            // 
+            // ribbonPanel3
+            // 
+            this.ribbonPanel3.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel3.Controls.Add(this.menuStripReportes);
+            this.ribbonPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel3.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel3.Name = "ribbonPanel3";
+            this.ribbonPanel3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel3.Size = new System.Drawing.Size(1000, 98);
+            // 
+            // 
+            // 
+            this.ribbonPanel3.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel3.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel3.TabIndex = 3;
+            this.ribbonPanel3.Visible = false;
+            // 
+            // menuStripReportes
+            // 
+            this.menuStripReportes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.VentasToolStripMenuItem,
+            this.cOMPRASToolStripMenuItem,
+            this.pRODUCTOSToolStripMenuItem});
+            this.menuStripReportes.Location = new System.Drawing.Point(3, 0);
+            this.menuStripReportes.Name = "menuStripReportes";
+            this.menuStripReportes.Size = new System.Drawing.Size(994, 24);
+            this.menuStripReportes.TabIndex = 1;
+            this.menuStripReportes.Text = "menuStrip1";
+            // 
+            // VentasToolStripMenuItem
+            // 
+            this.VentasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.porFechasToolStripMenuItem});
+            this.VentasToolStripMenuItem.Name = "VentasToolStripMenuItem";
+            this.VentasToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.VentasToolStripMenuItem.Text = "VENTAS";
+            // 
+            // porFechasToolStripMenuItem
+            // 
+            this.porFechasToolStripMenuItem.Name = "porFechasToolStripMenuItem";
+            this.porFechasToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.porFechasToolStripMenuItem.Text = "Por Fechas";
+            this.porFechasToolStripMenuItem.Click += new System.EventHandler(this.porFechasToolStripMenuItem_Click);
+            // 
+            // cOMPRASToolStripMenuItem
+            // 
+            this.cOMPRASToolStripMenuItem.Name = "cOMPRASToolStripMenuItem";
+            this.cOMPRASToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.cOMPRASToolStripMenuItem.Text = "COMPRAS";
+            // 
+            // pRODUCTOSToolStripMenuItem
+            // 
+            this.pRODUCTOSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.productosMásCompradosToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.listadoDeProductosToolStripMenuItem,
+            this.listadoDeProductosPorCategoríaToolStripMenuItem,
+            this.productosConStock0ToolStripMenuItem});
+            this.pRODUCTOSToolStripMenuItem.Name = "pRODUCTOSToolStripMenuItem";
+            this.pRODUCTOSToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.pRODUCTOSToolStripMenuItem.Text = "PRODUCTOS";
+            // 
+            // productosMásCompradosToolStripMenuItem
+            // 
+            this.productosMásCompradosToolStripMenuItem.Name = "productosMásCompradosToolStripMenuItem";
+            this.productosMásCompradosToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
+            this.productosMásCompradosToolStripMenuItem.Text = "10 Productos más comprados";
+            this.productosMásCompradosToolStripMenuItem.Click += new System.EventHandler(this.productosMásCompradosToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(258, 22);
+            this.toolStripMenuItem1.Text = "5 Productos más vendidos";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // listadoDeProductosToolStripMenuItem
+            // 
+            this.listadoDeProductosToolStripMenuItem.Name = "listadoDeProductosToolStripMenuItem";
+            this.listadoDeProductosToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
+            this.listadoDeProductosToolStripMenuItem.Text = "Listado de productos";
+            this.listadoDeProductosToolStripMenuItem.Click += new System.EventHandler(this.listadoDeProductosToolStripMenuItem_Click);
+            // 
+            // listadoDeProductosPorCategoríaToolStripMenuItem
+            // 
+            this.listadoDeProductosPorCategoríaToolStripMenuItem.Name = "listadoDeProductosPorCategoríaToolStripMenuItem";
+            this.listadoDeProductosPorCategoríaToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
+            this.listadoDeProductosPorCategoríaToolStripMenuItem.Text = "Listado de productos por categoría";
+            this.listadoDeProductosPorCategoríaToolStripMenuItem.Visible = false;
+            this.listadoDeProductosPorCategoríaToolStripMenuItem.Click += new System.EventHandler(this.listadoDeProductosPorCategoríaToolStripMenuItem_Click);
+            // 
+            // productosConStock0ToolStripMenuItem
+            // 
+            this.productosConStock0ToolStripMenuItem.Name = "productosConStock0ToolStripMenuItem";
+            this.productosConStock0ToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
+            this.productosConStock0ToolStripMenuItem.Text = "Productos con Stock 0";
+            this.productosConStock0ToolStripMenuItem.Click += new System.EventHandler(this.productosConStock0ToolStripMenuItem_Click);
+            // 
+            // ribbonPanel4
+            // 
+            this.ribbonPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonPanel4.Controls.Add(this.ribbonBar7);
+            this.ribbonPanel4.Controls.Add(this.ribbonBar6);
+            this.ribbonPanel4.Controls.Add(this.ribbonBar5);
+            this.ribbonPanel4.Controls.Add(this.ribbonBar4);
+            this.ribbonPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ribbonPanel4.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel4.Name = "ribbonPanel4";
+            this.ribbonPanel4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
+            this.ribbonPanel4.Size = new System.Drawing.Size(1000, 98);
+            // 
+            // 
+            // 
+            this.ribbonPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonPanel4.TabIndex = 4;
+            this.ribbonPanel4.Visible = false;
+            // 
+            // ribbonBar7
+            // 
+            this.ribbonBar7.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar7.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar7.ContainerControlProcessDialogKey = true;
+            this.ribbonBar7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar7.DragDropSupport = true;
+            this.ribbonBar7.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnSeccion});
+            this.ribbonBar7.Location = new System.Drawing.Point(303, 0);
+            this.ribbonBar7.Name = "ribbonBar7";
+            this.ribbonBar7.Size = new System.Drawing.Size(100, 95);
+            this.ribbonBar7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar7.TabIndex = 4;
+            this.ribbonBar7.Text = "Seccion";
+            // 
+            // 
+            // 
+            this.ribbonBar7.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar7.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnSeccion
+            // 
+            this.btnSeccion.Image = global::SistemaVentas.Properties.Resources.open_folder;
+            this.btnSeccion.Name = "btnSeccion";
+            this.btnSeccion.SubItemsExpandWidth = 14;
+            this.btnSeccion.Text = "buttonItem5";
+            this.btnSeccion.Click += new System.EventHandler(this.btnSeccion_Click);
+            // 
+            // ribbonBar6
+            // 
+            this.ribbonBar6.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar6.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar6.ContainerControlProcessDialogKey = true;
+            this.ribbonBar6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar6.DragDropSupport = true;
+            this.ribbonBar6.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnPresentacion});
+            this.ribbonBar6.Location = new System.Drawing.Point(203, 0);
+            this.ribbonBar6.Name = "ribbonBar6";
+            this.ribbonBar6.Size = new System.Drawing.Size(100, 95);
+            this.ribbonBar6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar6.TabIndex = 3;
+            this.ribbonBar6.Text = "Presentacion";
+            // 
+            // 
+            // 
+            this.ribbonBar6.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar6.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnPresentacion
+            // 
+            this.btnPresentacion.Image = global::SistemaVentas.Properties.Resources.open_folder;
+            this.btnPresentacion.Name = "btnPresentacion";
+            this.btnPresentacion.SubItemsExpandWidth = 14;
+            this.btnPresentacion.Text = "buttonItem5";
+            this.btnPresentacion.Click += new System.EventHandler(this.btnPresentacion_Click);
+            // 
+            // ribbonBar5
+            // 
+            this.ribbonBar5.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.ContainerControlProcessDialogKey = true;
+            this.ribbonBar5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar5.DragDropSupport = true;
+            this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnLote});
+            this.ribbonBar5.Location = new System.Drawing.Point(103, 0);
+            this.ribbonBar5.Name = "ribbonBar5";
+            this.ribbonBar5.Size = new System.Drawing.Size(100, 95);
+            this.ribbonBar5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar5.TabIndex = 2;
+            this.ribbonBar5.Text = "Lote";
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar5.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar5.Visible = false;
+            // 
+            // btnLote
+            // 
+            this.btnLote.Image = global::SistemaVentas.Properties.Resources.open_folder;
+            this.btnLote.Name = "btnLote";
+            this.btnLote.SubItemsExpandWidth = 14;
+            this.btnLote.Text = "buttonItem5";
+            this.btnLote.Click += new System.EventHandler(this.btnLote_Click);
+            // 
+            // ribbonBar4
+            // 
+            this.ribbonBar4.AutoOverflowEnabled = true;
+            // 
+            // 
+            // 
+            this.ribbonBar4.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.ribbonBar4.ContainerControlProcessDialogKey = true;
+            this.ribbonBar4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.ribbonBar4.DragDropSupport = true;
+            this.ribbonBar4.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
+            this.btnLaboratorio});
+            this.ribbonBar4.Location = new System.Drawing.Point(3, 0);
+            this.ribbonBar4.Name = "ribbonBar4";
+            this.ribbonBar4.Size = new System.Drawing.Size(100, 95);
+            this.ribbonBar4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.ribbonBar4.TabIndex = 1;
+            this.ribbonBar4.Text = "laboratorio";
+            // 
+            // 
+            // 
+            this.ribbonBar4.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // 
+            // 
+            this.ribbonBar4.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            // 
+            // btnLaboratorio
+            // 
+            this.btnLaboratorio.Image = global::SistemaVentas.Properties.Resources.open_folder;
+            this.btnLaboratorio.Name = "btnLaboratorio";
+            this.btnLaboratorio.SubItemsExpandWidth = 14;
+            this.btnLaboratorio.Text = "buttonItem5";
+            this.btnLaboratorio.Click += new System.EventHandler(this.btnLaboratorio_Click);
             // 
             // ribbonPanel1
             // 
@@ -712,190 +896,6 @@
             this.btnCategoria.Text = "CATEGORIAS";
             this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
             // 
-            // ribbonPanel4
-            // 
-            this.ribbonPanel4.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonPanel4.Controls.Add(this.ribbonBar7);
-            this.ribbonPanel4.Controls.Add(this.ribbonBar6);
-            this.ribbonPanel4.Controls.Add(this.ribbonBar5);
-            this.ribbonPanel4.Controls.Add(this.ribbonBar4);
-            this.ribbonPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel4.Location = new System.Drawing.Point(0, 53);
-            this.ribbonPanel4.Name = "ribbonPanel4";
-            this.ribbonPanel4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 3);
-            this.ribbonPanel4.Size = new System.Drawing.Size(1000, 98);
-            // 
-            // 
-            // 
-            this.ribbonPanel4.Style.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel4.StyleMouseDown.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonPanel4.StyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonPanel4.TabIndex = 4;
-            this.ribbonPanel4.Visible = false;
-            // 
-            // ribbonBar7
-            // 
-            this.ribbonBar7.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar7.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar7.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar7.ContainerControlProcessDialogKey = true;
-            this.ribbonBar7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar7.DragDropSupport = true;
-            this.ribbonBar7.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnSeccion});
-            this.ribbonBar7.Location = new System.Drawing.Point(303, 0);
-            this.ribbonBar7.Name = "ribbonBar7";
-            this.ribbonBar7.Size = new System.Drawing.Size(100, 95);
-            this.ribbonBar7.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar7.TabIndex = 4;
-            this.ribbonBar7.Text = "Seccion";
-            // 
-            // 
-            // 
-            this.ribbonBar7.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar7.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // btnSeccion
-            // 
-            this.btnSeccion.Image = global::SistemaVentas.Properties.Resources.open_folder;
-            this.btnSeccion.Name = "btnSeccion";
-            this.btnSeccion.SubItemsExpandWidth = 14;
-            this.btnSeccion.Text = "buttonItem5";
-            this.btnSeccion.Click += new System.EventHandler(this.btnSeccion_Click);
-            // 
-            // ribbonBar6
-            // 
-            this.ribbonBar6.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar6.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar6.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar6.ContainerControlProcessDialogKey = true;
-            this.ribbonBar6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar6.DragDropSupport = true;
-            this.ribbonBar6.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnPresentacion});
-            this.ribbonBar6.Location = new System.Drawing.Point(203, 0);
-            this.ribbonBar6.Name = "ribbonBar6";
-            this.ribbonBar6.Size = new System.Drawing.Size(100, 95);
-            this.ribbonBar6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar6.TabIndex = 3;
-            this.ribbonBar6.Text = "Presentacion";
-            // 
-            // 
-            // 
-            this.ribbonBar6.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar6.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // btnPresentacion
-            // 
-            this.btnPresentacion.Image = global::SistemaVentas.Properties.Resources.open_folder;
-            this.btnPresentacion.Name = "btnPresentacion";
-            this.btnPresentacion.SubItemsExpandWidth = 14;
-            this.btnPresentacion.Text = "buttonItem5";
-            this.btnPresentacion.Click += new System.EventHandler(this.btnPresentacion_Click);
-            // 
-            // ribbonBar5
-            // 
-            this.ribbonBar5.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar5.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar5.ContainerControlProcessDialogKey = true;
-            this.ribbonBar5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar5.DragDropSupport = true;
-            this.ribbonBar5.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnLote});
-            this.ribbonBar5.Location = new System.Drawing.Point(103, 0);
-            this.ribbonBar5.Name = "ribbonBar5";
-            this.ribbonBar5.Size = new System.Drawing.Size(100, 95);
-            this.ribbonBar5.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar5.TabIndex = 2;
-            this.ribbonBar5.Text = "Lote";
-            // 
-            // 
-            // 
-            this.ribbonBar5.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar5.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar5.Visible = false;
-            // 
-            // btnLote
-            // 
-            this.btnLote.Image = global::SistemaVentas.Properties.Resources.open_folder;
-            this.btnLote.Name = "btnLote";
-            this.btnLote.SubItemsExpandWidth = 14;
-            this.btnLote.Text = "buttonItem5";
-            this.btnLote.Click += new System.EventHandler(this.btnLote_Click);
-            // 
-            // ribbonBar4
-            // 
-            this.ribbonBar4.AutoOverflowEnabled = true;
-            // 
-            // 
-            // 
-            this.ribbonBar4.BackgroundMouseOverStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.ribbonBar4.ContainerControlProcessDialogKey = true;
-            this.ribbonBar4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.ribbonBar4.DragDropSupport = true;
-            this.ribbonBar4.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
-            this.btnLaboratorio});
-            this.ribbonBar4.Location = new System.Drawing.Point(3, 0);
-            this.ribbonBar4.Name = "ribbonBar4";
-            this.ribbonBar4.Size = new System.Drawing.Size(100, 95);
-            this.ribbonBar4.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.ribbonBar4.TabIndex = 1;
-            this.ribbonBar4.Text = "laboratorio";
-            // 
-            // 
-            // 
-            this.ribbonBar4.TitleStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // 
-            // 
-            this.ribbonBar4.TitleStyleMouseOver.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            // 
-            // btnLaboratorio
-            // 
-            this.btnLaboratorio.Image = global::SistemaVentas.Properties.Resources.open_folder;
-            this.btnLaboratorio.Name = "btnLaboratorio";
-            this.btnLaboratorio.SubItemsExpandWidth = 14;
-            this.btnLaboratorio.Text = "buttonItem5";
-            this.btnLaboratorio.Click += new System.EventHandler(this.btnLaboratorio_Click);
-            // 
             // applicationButton1
             // 
             this.applicationButton1.AutoExpandOnClick = true;
@@ -1210,13 +1210,13 @@
             this.Load += new System.EventHandler(this.FrmHomeRibbon_Load);
             this.FrmVender.ResumeLayout(false);
             this.FrmVender.PerformLayout();
+            this.ribbonPanel2.ResumeLayout(false);
             this.ribbonPanel3.ResumeLayout(false);
             this.ribbonPanel3.PerformLayout();
             this.menuStripReportes.ResumeLayout(false);
             this.menuStripReportes.PerformLayout();
-            this.ribbonPanel2.ResumeLayout(false);
-            this.ribbonPanel1.ResumeLayout(false);
             this.ribbonPanel4.ResumeLayout(false);
+            this.ribbonPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

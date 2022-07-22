@@ -64,6 +64,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(141, 22);
             this.txtUsuario.TabIndex = 0;
+            this.txtUsuario.Text = "raul";
             // 
             // btnCancelar
             // 
@@ -93,6 +94,7 @@
             this.txtContrasena.PasswordChar = '*';
             this.txtContrasena.Size = new System.Drawing.Size(141, 22);
             this.txtContrasena.TabIndex = 1;
+            this.txtContrasena.Text = "raul";
             this.txtContrasena.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtContrasena_KeyUp);
             // 
             // label2
